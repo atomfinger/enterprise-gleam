@@ -12,7 +12,7 @@ The goal is to document all the different integrations available, and their stat
 
 ## Messaging/Event queue
 
-- [ ] Publishing and subscribing to Kafka (Status: Deps outdated in library)
+- [x] Publishing and subscribing to Kafka
 - [ ] Avro schema support
 - [ ] MQ Pub/Sub (Status: Depds outdated in library)
 - [ ] SOAP web service (No Gleam deps)
