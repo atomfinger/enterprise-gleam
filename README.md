@@ -29,7 +29,7 @@ professional developers, outlined in [StackOverflow's developer survey (2025)](h
 - [ ] Redis support
 - [ ] MongoDB support
 - [ ] MySQL support
-- [ ] SQLite support
+- [x] SQLite support
 - [ ] Dynamodb support
 - [ ] Elasticsearch support
 - [ ] MariaDB support
