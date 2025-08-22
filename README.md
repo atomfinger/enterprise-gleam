@@ -23,7 +23,7 @@ The goal is to document all the different integrations available, and their stat
 Note: The selection of databases is based on top 10 used databases by
 professional developers, outlined in [StackOverflow's developer survey (2025)](https://survey.stackoverflow.co/2025/technology#1-databases).
 
-- [ ] Postgres support
+- [x] Postgres support
 - [ ] MSSQL suport
 - [ ] Oracle DB support
 - [ ] Redis support
