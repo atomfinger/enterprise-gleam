@@ -14,9 +14,12 @@ The goal is to document all the different integrations available, and their stat
 
 - ✅ Calling JSON API
 - ✅ Hosting JSON Web API: TODO - add example
-- 🚧 Calling and hosting gRPC service (Status: No known libs)
+- ❌ Hosting gRPC service: No out-of-box lib for this. Would require writing a
+  full wrapper around existing tools or building your own on top of a HTTP library.
+- 🚧 Calling gRPC service (Status: No known libs)
 - 🚧 Calling Graphql APIs (lib: [gleamql](https://github.com/cobbinma/gleamql))
-- 🚧 Calling hosting Graphql service (Status: No known libs)
+  TODO: Add example
+- ❌ Hosting Graphql service (Status: No known libs)
 - 🤏🏻 Calling SOAP services (Status: No known libs)
 - 🤏🏻 Hosting SOAP web service (Status: No known libs)
 
@@ -47,7 +50,7 @@ professional developers, outlined in [StackOverflow's developer survey (2025)](h
 - ✅ Postgres support
 - 🚧 MSSQL suport (Status: No known libs)
 - 🚧 Oracle DB support (Status: No known libs)
-- 🚧 Redis support (lib: [valkyrie](https://github.com/Pevensie/valkyrie))
+- ✅ Redis support (lib: [valkyrie](https://github.com/Pevensie/valkyrie))
 - 🚧 MongoDB support (Status: Abandoned?)
 - 🚧 MySQL support (Status: [Shork](https://github.com/ninanomenon/shork), need
   to test. GPL license might be worth mentioning)
