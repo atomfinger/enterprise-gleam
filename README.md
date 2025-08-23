@@ -1,6 +1,9 @@
-# Enterprise Gleam
+# Enterprise Gleam (TODO: Come up with better name)
 
-The goal is to document all the different integrations available, and their state
+The goal of this repo is to uncover what the Gleam ecosystem 
+is prepared for in terms of integrations. Companies don't
+want to reinvent the wheel, and they often have pre-existing
+infrastructure and tools which a new system will be required to use.
 
 ## Symbols
 
@@ -69,8 +72,8 @@ professional developers, outlined in [StackOverflow's developer survey (2025)](h
 
 ## Task Scheduling / Background Jobs
 
-- 🚧 Simple task scheduling (cron-like, periodic tasks) (Status: No known libs)
-- 🚧 Background job execution (delayed/retryable jobs) (Status: No known libs)
+- 🚧 Simple task scheduling (cron-like, periodic tasks) 
+- 🚧 Background job execution (delayed/retryable jobs)
 
 ## Observability
 
