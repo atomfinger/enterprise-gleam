@@ -1,6 +1,6 @@
 # Enterprise Gleam (TODO: Come up with better name)
 
-The goal of this repo is to uncover what the Gleam ecosystem 
+The goal of this repo is to uncover what the Gleam ecosystem
 is prepared for in terms of integrations. Companies don't
 want to reinvent the wheel, and they often have pre-existing
 infrastructure and tools which a new system will be required to use.
@@ -30,8 +30,8 @@ infrastructure and tools which a new system will be required to use.
 
 - 🚧 Generate OpenAPI clients (Struggling atm)
 - 🚧 Generate OpenAPI server
-- 🚧 Generate SOAP clients 
-- 🚧 Generate types from Avro 
+- 🚧 Generate SOAP clients
+- 🚧 Generate types from Avro
 - 🚧 Generate types from protobuf (lib: [acrostic](https://github.com/julywind168/acrostic),
   a little outdated)
 
@@ -63,7 +63,7 @@ professional developers, outlined in [StackOverflow's developer survey (2025)](h
 
 ## Security
 
-- 🚧 JWT handling
+- 🚧 Integration with a JWT based API
 - 🚧 TLS/SSL utilities
 - 🚧 Cryptographic functions (hashing, HMAC, AES, RSA, bcrypt/argon2)
 - 🚧 mTLS support
@@ -71,7 +71,7 @@ professional developers, outlined in [StackOverflow's developer survey (2025)](h
 
 ## Task Scheduling / Background Jobs
 
-- 🚧 Simple task scheduling (cron-like, periodic tasks) 
+- 🚧 Simple task scheduling (cron-like, periodic tasks)
 - 🚧 Background job execution (delayed/retryable jobs)
 
 ## Observability
@@ -85,8 +85,6 @@ professional developers, outlined in [StackOverflow's developer survey (2025)](h
 - ✅ Unit testing framework (Gleeunit, no examples needed)
 - 🚧 Snapshot testing (lib: [birdie](https://github.com/giacomocavalieri/birdie))
   TODO: Add example
-- 🚧 Mocking/stubbing libraries
-  (lib: [mokth](https://github.com/bondiano/mockth), outdated)
 - 🚧 Integration testing support (Status: No known libs)
 - 🚧 Property-based testing
   (lib [gleam_qcheck](https://github.com/mooreryan/gleam_qcheck), a little
