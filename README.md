@@ -30,9 +30,8 @@ infrastructure and tools which a new system will be required to use.
 
 - 🚧 Generate OpenAPI clients (Struggling atm)
 - 🚧 Generate OpenAPI server
-- 🚧 Generate SOAP clients (Status: No known libs)
-- 🚧 Generating SOAP server (Status: No known libs)
-- 🚧 Generate types from Avro (Status: No known libs)
+- 🚧 Generate SOAP clients 
+- 🚧 Generate types from Avro 
 - 🚧 Generate types from protobuf (lib: [acrostic](https://github.com/julywind168/acrostic),
   a little outdated)
 
@@ -64,10 +63,10 @@ professional developers, outlined in [StackOverflow's developer survey (2025)](h
 
 ## Security
 
-- 🚧 JWT handling (Status: No known libs)
-- 🚧 TLS/SSL utilities (Status: No known libs)
+- 🚧 JWT handling
+- 🚧 TLS/SSL utilities
 - 🚧 Cryptographic functions (hashing, HMAC, AES, RSA, bcrypt/argon2)
-- 🚧 mTLS support (Status: No known libs)
+- 🚧 mTLS support
 - 🚧 OAuth (Lib: [Spotless](https://github.com/CrowdHailer/gleam_spotless))
 
 ## Task Scheduling / Background Jobs
@@ -94,8 +93,8 @@ professional developers, outlined in [StackOverflow's developer survey (2025)](h
   outdated, but might be okay?)
 - 🚧 Test coverage tools (Status: No known libs)
 - 🚧 Mutation testing
-- 🚧 TestContainers / containerized test support (Status: No known libs)
-- 🚧 Contract testing (Status: No known libs)
+- 🚧 TestContainers / containerized test support
+- 🚧 Contract testing
 
 ## Misc
 
