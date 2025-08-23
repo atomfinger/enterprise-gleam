@@ -2,40 +2,95 @@
 
 The goal is to document all the different integrations available, and their state
 
+## Symbols
+
+- ✅: It is fully supported, no problems.
+- 🤏🏻: It can be supported, but requires a lot of faffing about and
+  doesn't feel good. Often feels hack-y and forced.
+- ❌: No support / you'll have to build support yourself
+- 🚧: WIP / Yet to be looked into
+
 ## Web Services
 
-- [x] Calling JSON API
-- [ ] Hosting JSON Web API
-- [ ] Calling API with OpenAPI (Status: Struggling to get it working properly)
-- [ ] Calling and hosting gRPC service
-- [ ] Calling and hosting Graphql service
+- ✅ Calling JSON API
+- ✅ Hosting JSON Web API: TODO - add example
+- 🚧 Calling and hosting gRPC service (Status: No known libs)
+- 🚧 Calling Graphql APIs (lib: [gleamql](https://github.com/cobbinma/gleamql))
+- 🚧 Calling hosting Graphql service (Status: No known libs)
+- 🤏🏻 Calling SOAP services (Status: No known libs)
+- 🤏🏻 Hosting SOAP web service (Status: No known libs)
+
+## Code generation
+
+- 🚧 Generate OpenAPI clients (Struggling atm)
+- 🚧 Generate OpenAPI server
+- 🚧 Generate SOAP clients (Status: No known libs)
+- 🚧 Generating SOAP server (Status: No known libs)
+- 🚧 Generate types from Avro (Status: No known libs)
+- 🚧 Generate types from protobuf (lib: [acrostic](https://github.com/julywind168/acrostic),
+  a little outdated)
 
 ## Messaging/Event queue
 
-- [x] Publishing and subscribing to Kafka
-- [ ] Avro schema support
-- [ ] MQ Pub/Sub (Status: Depds outdated in library)
-- [ ] SOAP web service (No Gleam deps)
-- [ ] Calling SOAP services (No Gleam deps)
+- ✅ Kafka
+- 🚧 AMQP (RabbitMQ, Azure Service Bus)
+  (lib: [Carrotte](https://github.com/renatillas/carotte)?)
+- 🚧 MQTT (Eclipse Mosquitto)
+- 🚧 AWS SQS
+- 🚧 Google Pub/Sub
 
 ## Databases
 
 Note: The selection of databases is based on top 10 used databases by
 professional developers, outlined in [StackOverflow's developer survey (2025)](https://survey.stackoverflow.co/2025/technology#1-databases).
 
-- [x] Postgres support
-- [ ] MSSQL suport
-- [ ] Oracle DB support
-- [ ] Redis support
-- [ ] MongoDB support
-- [ ] MySQL support
-- [x] SQLite support
-- [ ] Dynamodb support
-- [ ] Elasticsearch support
-- [ ] MariaDB support
+- ✅ Postgres support
+- 🚧 MSSQL suport (Status: No known libs)
+- 🚧 Oracle DB support (Status: No known libs)
+- 🚧 Redis support (lib: [valkyrie](https://github.com/Pevensie/valkyrie))
+- 🚧 MongoDB support (Status: Abandoned?)
+- 🚧 MySQL support (Status: [Shork](https://github.com/ninanomenon/shork), need
+  to test. GPL license might be worth mentioning)
+- ✅ SQLite support
+- 🚧 Dynamodb support (Status: No known libs)
+- 🚧 Elasticsearch support (Status: No known libs)
+- 🚧 MariaDB support (Shork again)
+
+## Security
+
+- 🚧 JWT handling (Status: No known libs)
+- 🚧 TLS/SSL utilities (Status: No known libs)
+- 🚧 Cryptographic functions (hashing, HMAC, AES, RSA, bcrypt/argon2)
+- 🚧 mTLS support (Status: No known libs)
+- 🚧 OAuth (Lib: [Spotless](https://github.com/CrowdHailer/gleam_spotless))
+
+## Task Scheduling / Background Jobs
+
+- 🚧 Simple task scheduling (cron-like, periodic tasks) (Status: No known libs)
+- 🚧 Background job execution (delayed/retryable jobs) (Status: No known libs)
+
+## Observability
+
+- 🚧 Structured logging
+- 🚧 OpenTelemetry (Status: [glotel](https://github.com/skinkade/glotel),
+  outdated? Abandoned?)
+
+## Testing
+
+- ✅ Unit testing framework (Gleeunit, no examples needed)
+- 🚧 Snapshot testing (lib: [birdie](https://github.com/giacomocavalieri/birdie))
+  TODO: Add example
+- 🚧 Mocking/stubbing libraries
+  (lib: [mokth](https://github.com/bondiano/mockth), outdated)
+- 🚧 Integration testing support (Status: No known libs)
+- 🚧 Property-based testing
+  (lib [gleam_qcheck](https://github.com/mooreryan/gleam_qcheck), a little
+  outdated, but might be okay?)
+- 🚧 Test coverage tools (Status: No known libs)
+- 🚧 Mutation testing
+- 🚧 TestContainers / containerized test support (Status: No known libs)
+- 🚧 Contract testing (Status: No known libs)
 
 ## Misc
 
-- [ ] TestContainers
-- [ ] Structured logging
-- [ ] S3 support
+- 🚧 S3 support
