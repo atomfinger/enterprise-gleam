@@ -71,8 +71,7 @@ professional developers, outlined in [StackOverflow's developer survey (2025)](h
 
 ## Task Scheduling / Background Jobs
 
-- 🚧 Simple task scheduling (cron-like, periodic tasks)
-- 🚧 Background job execution (delayed/retryable jobs)
+- ✅ Background job execution (delayed/retryable jobs)
 
 ## Observability
 
